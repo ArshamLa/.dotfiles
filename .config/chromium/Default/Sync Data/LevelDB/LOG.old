@@ -1,3 +1,3 @@
-2024/06/12-13:58:09.000 42a Reusing MANIFEST /home/onizuka/.config/chromium/Default/Sync Data/LevelDB/MANIFEST-000001
-2024/06/12-13:58:09.004 42a Recovering log #3
-2024/06/12-13:58:09.005 42a Reusing old log /home/onizuka/.config/chromium/Default/Sync Data/LevelDB/000003.log 
+2024/06/12-18:23:04.787 493 Reusing MANIFEST /home/onizuka/.config/chromium/Default/Sync Data/LevelDB/MANIFEST-000001
+2024/06/12-18:23:04.791 493 Recovering log #3
+2024/06/12-18:23:04.792 493 Reusing old log /home/onizuka/.config/chromium/Default/Sync Data/LevelDB/000003.log 

@@ -55,10 +55,12 @@ bindsym $mod+Return exec kitty
 bindsym $mod+a kill
 
 # start browser chromium
-bindsym $mod+g exec chromium
+bindsym $mod+g exec --no-startup-id chromium
 
+#start code
+bindsym $mod+c exec --no-startup-id code
 
-
+bindsym $mod+e exec --no-startup-id nemo
 # start dmenu (a program launcher)
 bindsym $mod+d exec --no-startup-id dmenu_run
 # A more modern dmenu replacement is rofi:
@@ -195,3 +197,15 @@ bar {
 }
 
 exec --no-startup-id xinput set-prop "ETPS/2 Elantech Touchpad" "libinput Natural Scrolling Enabled" 1
+exec --no-startup-id picom
+
+#default_border pixel 5
+
+#gaps inner 10
+
+default_border pixel 3
+gaps inner 10
+gaps top 3
+gaps left 3
+gaps right 6
+gaps bottom 3
