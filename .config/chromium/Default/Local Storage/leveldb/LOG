@@ -1,0 +1,8 @@
+2024/06/12-14:06:31.374 4 Reusing MANIFEST /home/onizuka/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
+2024/06/12-14:06:31.383 4 Recovering log #8
+2024/06/12-14:06:31.384 4 Level-0 table #10: started
+2024/06/12-14:06:31.387 4 Level-0 table #10: 18367 bytes OK
+2024/06/12-14:06:31.389 4 Delete type=0 #8
+2024/06/12-14:18:23.400 6 Level-0 table #13: started
+2024/06/12-14:18:23.405 6 Level-0 table #13: 20115 bytes OK
+2024/06/12-14:18:23.408 6 Delete type=0 #11
