@@ -1,5 +1,5 @@
 {
-   "checksum": "fb42a675c6e7ea4c80903e37a481055e",
+   "checksum": "34c9ca2b89929d832c4c501d9ff3ab00",
    "roots": {
       "bookmark_bar": {
          "children": [ {
@@ -36,10 +36,21 @@
          "type": "folder"
       },
       "other": {
-         "children": [  ],
+         "children": [ {
+            "date_added": "13362698669648100",
+            "date_last_used": "0",
+            "guid": "ea83bd8b-22d4-4c3b-b9b1-daa0e31b5ea0",
+            "id": "9",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "How to Create and Run Bash Shell Script [Beginner's Guide]",
+            "type": "url",
+            "url": "https://linuxhandbook.com/run-shell-script/"
+         } ],
          "date_added": "13362666878630770",
          "date_last_used": "0",
-         "date_modified": "0",
+         "date_modified": "13362698669648100",
          "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
          "id": "2",
          "name": "Other bookmarks",
