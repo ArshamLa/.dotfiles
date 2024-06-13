@@ -1,2 +1,3 @@
-2024/06/12-18:31:06.146 942 Creating DB /home/onizuka/.config/Code/Service Worker/Database since it was missing.
-2024/06/12-18:31:06.148 942 Reusing MANIFEST /home/onizuka/.config/Code/Service Worker/Database/MANIFEST-000001
+2024/06/12-18:32:10.110 a88 Reusing MANIFEST /home/onizuka/.config/Code/Service Worker/Database/MANIFEST-000001
+2024/06/12-18:32:10.111 a88 Recovering log #3
+2024/06/12-18:32:10.111 a88 Reusing old log /home/onizuka/.config/Code/Service Worker/Database/000003.log 
