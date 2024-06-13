@@ -35,3 +35,16 @@
 
 ----------------------------------------------
 2024-06-13T15:33:29.709Z 1: Discord starting: {"releaseChannel":"stable","version":"0.0.56"}, modulepath: /home/onizuka/.config/discord/0.0.56/modules
+2024-06-13T15:35:33.294Z 0: 
+
+----------------------------------------------
+2024-06-13T15:35:33.320Z 1: Discord starting: {"releaseChannel":"stable","version":"0.0.56"}, modulepath: /home/onizuka/.config/discord/0.0.56/modules
+2024-06-13T15:35:33.402Z 2: ✅ webContents.created web1 ""
+2024-06-13T15:35:33.407Z 3: ✅ window.created win1 "discord"
+2024-06-13T15:35:33.713Z 4: ✅ webContents.did-finish-load web1
+2024-06-13T15:35:33.975Z 5: ✅ webContents.created web2 ""
+2024-06-13T15:35:33.992Z 6: ✅ window.created win2 "Discord"
+2024-06-13T15:35:36.943Z 7: ✅ webContents.did-finish-load web2
+2024-06-13T15:35:37.043Z 8: window.close win1
+2024-06-13T15:35:37.057Z 9: webContents.destroyed web1
+2024-06-13T15:35:37.058Z 10: window.closed win1
