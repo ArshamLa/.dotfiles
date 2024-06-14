@@ -1,3 +1,0 @@
-2024-06-12 18:32:10.633 [info] Initial editor state {"filesToOpenOrCreate":[{"fileUri":{"$mid":1,"path":"/home/onizuka/.cache/.fr-UM17O2/README.md","scheme":"file"},"type":1,"exists":true,"options":{}}],"filesToDiff":[],"filesToMerge":[]}
-2024-06-12 18:32:11.040 [info] Started local extension host with pid 2790.
-2024-06-12 18:32:13.786 [info] [perf] Render performance baseline is 134ms
