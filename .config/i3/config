@@ -52,6 +52,12 @@ bindsym F6 exec --no-startup-id brightnessctl set +10%
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
+# full screen
+bindsym Print exec --no-startup-id sh -c 'flameshot full -p ~/Images/$(date +%Y-%m-%d-%HH%MM%SS).png'
+
+# lancement de base
+bindsym $mod+s exec --no-startup-id flameshot gui
+
 # move tiling windows via drag & drop by left-clicking into the title bar,
 # or left-clicking anywhere into the window while holding the floating modifier.
 tiling_drag modifier titlebar
@@ -75,7 +81,7 @@ bindsym $mod+e exec --no-startup-id nemo
 # start dmenu (a program launcher)
 #bindsym $mod+d exec --no-startup-id dmenu_run
 # A more modern dmenu replacement is rofi:
-# bindcode $mod+40 exec "rofi -modi drun,run -show drun"
+ bindsym $mod+r exec "rofi -modi drun,run -show drun"
 # There also is i3-dmenu-desktop which only displays applications shipping a
 # .desktop file. It is a wrapper around dmenu, so you need that installed.
 # bindcode $mod+40 exec --no-startup-id i3-dmenu-desktop
