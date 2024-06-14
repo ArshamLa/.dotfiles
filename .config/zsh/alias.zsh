@@ -1,0 +1,5 @@
+#alias cd="z"
+alias ls="eza --icons --group-directories-first"
+alias ll="eza --icons --group-directories-first --long"
+alias la="eza --icons --group-directories-first --all"
+alias lst="eza --icons --group-directories-first --tree"
