@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Répertoire contenant vos images de fond d'écran
+WALLPAPER_DIR="$HOME/Images/Wallpapers/"
+
+# Changer de répertoire
+cd "$WALLPAPER_DIR" || exit
+
+# Choisir un fichier au hasard dans le répertoire
+wallpaper=$(ls | shuf -n 1)
+
+# Appliquer le fond d'écran
+feh --bg-fill "$WALLPAPER_DIR/$wallpaper"

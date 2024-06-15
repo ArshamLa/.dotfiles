@@ -229,7 +229,16 @@ gaps right 6
 gaps bottom 3
 
 
-# fond d'écrans
-#bindsym $mod+j --no-startup-id feh --randomize --bg-fill $HOME/Images/Wallpapers
-exec_always --no-startup-id feh --randomize --bg-fill "$HOME/Images/Wallpapers/"
 
+
+
+
+
+# fond d'écrans
+#exec_always --no-startup-id feh --randomize --bg-fill $HOME/Images/Wallpapers
+#exec_always --no-startup-id sh -c  "$HOME/.dotfiles/.config/scripts/change_wallpapers.sh"
+#exec_always --no-startup-id /home/onizuka/.dotfiles/.config/scripts
+
+#exec --no-startup-id /home/onizuka/.dotfiles/.config/scripts/change_wallpaper.sh
+
+#exec_always --no-startup-id sh -c "while true; do feh --randomize --bg-fill $HOME/Images/Wallpaper/*; sleep 60; done"
