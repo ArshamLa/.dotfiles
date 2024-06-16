@@ -39,15 +39,15 @@ exec --no-startup-id nm-applet
 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
-bindsym F3 exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10% && $refresh_i3status
-bindsym F2 exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -10% && $refresh_i3status
+bindsym F3 exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10% && ~/.dotfiles/.config/scripts/dunstify_sound.sh
+bindsym F2 exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -10% && ~/.dotfiles/.config/scripts/dunstify_sound.sh
 bindsym F1 exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
 bindsym F4 exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
 
 #Use brightnessctl to adjust luminosity
 
-bindsym F5 exec --no-startup-id brightnessctl set 10%-
-bindsym F6 exec --no-startup-id brightnessctl set +10%
+bindsym F5 exec --no-startup-id brightnessctl set 10%- && ~/.dotfiles/.config/scripts/dunstify_luminosity.sh
+bindsym F6 exec --no-startup-id brightnessctl set +10% && ~/.dotfiles/.config/scripts/dunstify_luminosity.sh
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
@@ -221,6 +221,7 @@ exec --no-startup-id polybar --config=/home/onizuka/.dotfiles/.config/polybar/co
 exec --no-startup-id xinput set-prop "ETPS/2 Elantech Touchpad" "libinput Natural Scrolling Enabled" 1
 exec --no-startup-id picom
 #exec --no-startup-id picom --config ~/.dotfiles/.config/picom/picom.conf
+#exec --no-startup-id picom --experimental-backends --config ~/.dotfiles/config/picom/picom.conf
 
 #default_border pixel 5
 
